@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/blazeplate/blazeplate-cli/issues"
   },
-  "homepage": "https://github.com/blazeplate/blazeplate-cli#readme"
+  "homepage": "https://github.com/blazeplate/blazeplate-cli#readme",
+  "dependencies": {
+    "caporal": "^0.10.0"
+  }
 }
