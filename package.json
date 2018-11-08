@@ -2,10 +2,6 @@
   "name": "@codotype/cli",
   "version": "0.1.0",
   "description": "CLI for development with codotype.io",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
     "codotype": "bin/codotype.js"
   },
@@ -13,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/codotype/codotype-cli.git"
   },
-  "author": "",
+  "author": "Alexander Schwartzberg",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/codotype/codotype-cli/issues"
