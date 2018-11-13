@@ -34,6 +34,14 @@ program
     require('../lib/run')(blueprint, options)
   })
 
+program
+  .command('doctor')
+  .description('validates the generator in the current working directory')
+  .action((cmd) => {
+    const options = cleanArgs(cmd)
+    require('../lib/doctor')(options)
+  })
+
 // output help information on unknown commands
 program
   .arguments('<command>')

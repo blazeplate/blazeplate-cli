@@ -1,11 +1,7 @@
 {
   "name": "@codotype/cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CLI for development with codotype.io",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
     "codotype": "bin/codotype.js"
   },
@@ -13,17 +9,19 @@
     "type": "git",
     "url": "git+https://github.com/codotype/codotype-cli.git"
   },
-  "author": "",
+  "author": "Alexander Schwartzberg",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/codotype/codotype-cli/issues"
   },
   "homepage": "https://github.com/codotype/codotype-cli#readme",
   "dependencies": {
-    "@codotype/runtime": "^0.4.0",
+    "@codotype/generator": "^0.4.0",
+    "@codotype/runtime": "^0.5.0",
     "@codotype/util": "^0.3.0",
     "chalk": "^2.4.1",
     "commander": "^2.19.0",
+    "fs-extra": "^7.0.1",
     "inquirer": "^6.2.0",
     "minimist": "^1.2.0",
     "semver": "^5.6.0"
