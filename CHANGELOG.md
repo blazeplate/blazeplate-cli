@@ -3,5 +3,7 @@
 #### Breaking Changes
 * Updated `@codotype/runtime` to `0.5.0` and `@codotype/generator` to `0.4.0`
 
-#### Documentation
+### v0.1.0
+
+#### General
 * Added `CHANGELOG.md`
