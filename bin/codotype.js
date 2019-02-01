@@ -28,7 +28,9 @@ program
 
 program
   .command('run <blueprint>')
-  .description('run the generator in the current working directory against the blueprint argument')
+  .option('-c --config <configuration>', 'Path to generator configuration file to pass into Codotype runtime')
+  // .parse(process.argv)
+  .description('run the generator in the current working directory against the blueprint argument (optional configuration argument)')
   .action((blueprint, cmd) => {
     const options = cleanArgs(cmd)
     require('../lib/run')(blueprint, options)
